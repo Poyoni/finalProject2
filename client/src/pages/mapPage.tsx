@@ -2,7 +2,7 @@ import React from 'react'
 import MapComponent from '../components/Map/MapComponent'
 import FilterSelect from '../components/FilterSelect/FilterSelect'
 import Navbar from '../components/Navbar/Navbar'
-import EventForm from '../components/EventForm/EvevtForm'
+
 import './mapPage.css'
 import { ThemeProvider } from '@emotion/react'
 import  theme  from '../../src/theme'
@@ -26,10 +26,6 @@ const MapPage: React.FC = () => {
             <GraphComponent />
           </div>
         </div>
-        {/* <div className='eventDetails'>
-
-          // <EventForm />
-          </div>  */}
           <div className='filterSelect'>
           <FilterSelect />
           </div>
