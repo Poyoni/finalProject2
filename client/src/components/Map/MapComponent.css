@@ -1,0 +1,54 @@
+.map-container {
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .vehicle-popup img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .vehicle-popup h3 {
+    margin: 0;
+  }
+  
+  .details-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    animation: heart-beat 1s infinite;
+  }
+  
+  @keyframes heart-beat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .custom-div-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-div-icon .marker-img img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-div-icon:hover .marker-img img {
+    transform: scale(1.5); 
+    z-index: 1000;
+  }

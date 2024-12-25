@@ -1,0 +1,9 @@
+.graphPage{
+    height: 100vh;
+}
+
+.navbar{    
+    overflow: hidden;
+    height: 0;
+  }
+  
